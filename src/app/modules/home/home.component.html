@@ -1,37 +1,234 @@
-<div class="container-fluid" style="background-color: #ff914d;">
-    <div class="container ">
-        <nav class="navbar navbar-expand-lg  bg-white shadow-sm">
-            <div class="navbar-brand d-flex align-items-center text-start gap-2 p-0">
-                <img src="logo MC EL GRULLO.png" alt="" style="width: 90px; height: auto;  ;">
-                <div class="d-flex flex-column  ">
-                    <h5 class="mb-0 pt-2 fw-bold text-dark " style="letter-spacing: -0.5px;">Servicios Publicos Municipales
-                    </h5>
-                    <p class="text-muted">El Grullo, Jalisco</p>
+<!-- ========================= -->
+<!-- INICIO: HEADER SUPERIOR NARANJA -->
+<!-- ========================= -->
+<div class="container-fluid border-0 rounded-3" style="background-color: #ff914d">
+  <!-- ===== INICIO: CONTENEDOR PRINCIPAL DEL NAVBAR ===== -->
+  <div class="container ">
+    <!-- ===== INICIO: NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm border-0 rounded-bottom-3">
+      <!-- ===== INICIO: LOGO + TITULO ===== -->
+      <div class="navbar-brand d-flex align-items-center text-start gap-2 p-0">
+        <img
+          src="logo MC EL GRULLO.png"
+          alt="Logo El Grullo"
+          style="width: 90px; height: auto"
+        />
 
-                </div>
-            </div>
-            <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Texto institucional -->
+        <div class="d-flex flex-column">
+          <h5
+            class="mb-0 pt-2 fw-bold text-dark"
+            style="letter-spacing: -0.5px"
+          >
+            Servicios Publicos Municipales
+          </h5>
+          <p class="text-muted small">El Grullo, Jalisco</p>
+        </div>
+      </div>
+      <!-- ===== FIN: LOGO + TITULO ===== -->
 
-            <div class=" collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto gap-2">
-                    <li class="nav-item">
-                        <a class="nav-link  " href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Reportar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Explorar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Seguimiento</a>
-                    </li>
-                </ul>
+      <!-- ===== INICIO: BOTON RESPONSIVE ===== -->
+      <button
+        class="navbar-toggler border-0"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- ===== FIN: BOTON RESPONSIVE ===== -->
 
-            </div>
+      <!-- ===== INICIO: MENU COLAPSABLE ===== -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- ===== INICIO: LINKS DE NAVEGACION ===== -->
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Reportar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Explorar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">Seguimiento</a>
+          </li>
+        </ul>
+        <!-- ===== FIN: LINKS DE NAVEGACION ===== -->
 
-        </nav>
-    </div>
+        <!-- ===== INICIO: ICONO USUARIO ===== -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link">
+              <span class="bi bi-person-circle" style="font-size: 32px"></span>
+            </a>
+          </li>
+        </ul>
+        <!-- ===== FIN: ICONO USUARIO ===== -->
+      </div>
+      <!-- ===== FIN: MENU COLAPSABLE ===== -->
+    </nav>
+    <!-- ===== FIN: NAVBAR ===== -->
+  </div>
+  <!-- ===== FIN: CONTENEDOR PRINCIPAL DEL NAVBAR ===== -->
 </div>
+<!-- ========================= -->
+<!-- FIN: HEADER SUPERIOR NARANJA -->
+<!-- ========================= -->
+
+<!-- ========================= -->
+<!-- INICIO: CONTENIDO PRINCIPAL -->
+<!-- ========================= -->
+<div class="container mt-4">
+  <!-- ================================== -->
+  <!-- INICIO: SECCION HERO (IMAGENES SUPERIORES) -->
+  <!-- ================================== -->
+  <div class="row g-3">
+    <!-- ===== INICIO: HERO IZQUIERDO CON OVERLAY ===== -->
+    <div class="col-lg-6">
+      <div class="position-relative d-inline-block">
+        <!-- Imagen principal -->
+        <img
+          class="img-fluid rounded-4 shadow-sm"
+          src="paseo-rosas1.jpeg"
+          alt="Imagen Paseo"
+        />
+
+        <!-- Overlay oscuro con texto -->
+        <div
+          class="position-absolute top-50 start-50 translate-middle mt-5 w-100 rounded-4 bg-black bg-opacity-50 d-flex align-items-start text-start p-4"
+          style="height: 77%"
+        >
+          <div class="text-white mt-4">
+            <h2 class="display-6 fw-bold">Tu voz, Nuestra acción.</h2>
+            <p class="fs-4">Reporta El Grullo</p>
+            <button
+              class="btn border-0 rounded-4 text-white fw-bold fs-5 px-4 py-2 mt-3 shadow"
+              style="background-color: #ff914d"
+            >
+              Nuevo Reporte +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===== FIN: HERO IZQUIERDO ===== -->
+
+    <!-- ===== INICIO: HERO DERECHO (IMAGEN SIMPLE) ===== -->
+    <div class="col-lg-6">
+      <img
+        class="img-fluid rounded-4 shadow-sm"
+        src="paseo-rosas2.jpeg"
+        alt="Imagen Paseo 2"
+      />
+    </div>
+    <!-- ===== FIN: HERO DERECHO ===== -->
+  </div>
+  <!-- ================================== -->
+  <!-- FIN: SECCION HERO -->
+  <!-- ================================== -->
+
+  <!-- ================================== -->
+  <!-- INICIO: SECCION PRINCIPAL 3 COLUMNAS -->
+  <!-- ================================== -->
+  <div class="row mt-5">
+    <!-- ============================== -->
+    <!-- INICIO: COLUMNA CATEGORIAS -->
+    <!-- ============================== -->
+    <div class="col-lg-3">
+      <div class="card p-3 border-0 shadow-sm rounded-4">
+        <h5 class="fw-bold mb-3">Categorías</h5>
+
+        <ul class="navbar-nav">
+          <!-- Angular: listado dinámico de categorías -->
+          <li
+            *ngFor="let cat of categorias"
+            class="nav-item d-flex align-items-center text-muted mb-3"
+          >
+            <i class="bi {{ cat.icono }} fs-4 text-primary"></i>
+            <a href="#" class="nav-link ms-3 fw-semibold p-0">
+              {{ cat.nombre }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ============================== -->
+    <!-- FIN: COLUMNA CATEGORIAS -->
+    <!-- ============================== -->
+
+    <!-- ============================== -->
+    <!-- INICIO: COLUMNA REPORTES RECIENTES -->
+    <!-- ============================== -->
+    <div class="col-lg-6">
+      <div class="card border-0 shadow-sm p-3 rounded-4">
+        <h5 class="fw-bold mb-4">Reportes Recientes</h5>
+
+        <div class="d-flex flex-wrap justify-content-center gap-4">
+          <!-- Angular: listado dinámico de reportes -->
+          <div
+            *ngFor="let rep of reportes"
+            class="card p-2 border-0 shadow-sm"
+            style="max-width: 280px"
+          >
+            <!-- Imagen del reporte -->
+            <img class="card-img rounded-3" [src]="rep.img" alt="Reporte" />
+
+            <!-- Nombre + Icono -->
+            <div
+              class="d-flex justify-content-between align-items-center my-3 px-2"
+            >
+              <h6 class="fw-bold mb-0">{{ rep.nombreR }}</h6>
+              <div class="border rounded p-1 bg-light">
+                <i class="bi {{ rep.icono }} text-secondary"></i>
+              </div>
+            </div>
+
+            <!-- Fecha + Tipo -->
+            <div
+              class="d-flex justify-content-between align-items-center px-2 pb-2 "
+            >
+              <small class="text-muted">2026/02/16</small>
+              <span
+                class="badge btn bg-light text-dark border rounded-pill fw-bold text-muted "
+              >
+                <i class="bi bi-house-door-fill text-success me-1"></i>
+                Residencia
+              </span>
+            </div>
+          </div>
+          <!-- FIN tarjeta individual -->
+        </div>
+      </div>
+    </div>
+    <!-- ============================== -->
+    <!-- FIN: COLUMNA REPORTES RECIENTES -->
+    <!-- ============================== -->
+
+    <!-- ============================== -->
+    <!-- INICIO: COLUMNA RESUMEN -->
+    <!-- ============================== -->
+    <div class="col-lg-3">
+      <div class="card border-0 shadow-sm p-3 rounded-4 text-center">
+        <h5 class="fw-bold">Resumen</h5>
+        <p class="text-muted">
+          Aquí podrías poner estadísticas de reportes solucionados en El Grullo.
+        </p>
+      </div>
+    </div>
+    <!-- ============================== -->
+    <!-- FIN: COLUMNA RESUMEN -->
+    <!-- ============================== -->
+  </div>
+  <!-- ================================== -->
+  <!-- FIN: SECCION PRINCIPAL 3 COLUMNAS -->
+  <!-- ================================== -->
+   
+</div>
+<!-- ========================= -->
+<!-- FIN: CONTENIDO PRINCIPAL -->
+<!-- ========================= -->
+
+<footer class="container-fluid bg-dark text-white pt-5 pb-3 mt-5">
+
+</footer>
