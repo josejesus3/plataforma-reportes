@@ -87,31 +87,18 @@ body {
     background: #f36d1a;
     height: 100%;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* arriba */
-    align-items: flex-start;
-    /* izquierda */
-    position: relative;
     overflow: hidden;
     text-align: center;
 }
 
 /* contenedor logo */
-.img-logo {
-    position: absolute;
-    max-width: 300px;
-   
-    
-}
+
 
 .img-logo img {
-    position: relative;
     width: 100%;
     max-width: 450px;
     height: auto;
-    bottom: 20px;
+    bottom: 5px;
 }
 
 .right-side h3 {
@@ -130,11 +117,4 @@ body {
     font-size: 18px;
     font-style: italic;
     opacity: 0.9;
-}
-.text{
-    position: relative;
-    top: 120px;
-    transform: translateY(100%);
-    padding: 0px 30px;
-    
 }
