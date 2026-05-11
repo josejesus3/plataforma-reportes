@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NgClass, NgForOf } from '@angular/common';
+import { LoginComponent } from "../../login/login.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NgClass, NgForOf],
+  imports: [NgClass, NgForOf, LoginComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })

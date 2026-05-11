@@ -1,0 +1,140 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 25px;
+    border: 2px solid #e0e0e0;
+    overflow: hidden;
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.08);
+
+}
+
+.left-side {
+    padding: 1rem;
+}
+
+
+.form-control {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    background-color: #fbfbfb;
+    font-size: 15px;
+    transition: all 0.3s ease;
+
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.input-container .icon {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    cursor: pointer;
+
+}
+
+.form-label {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn-login {
+    background-color: #f36d1a;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 13px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.check {
+    border: 1px solid #f36d1a;
+}
+
+.check:checked {
+    background-color: #f36d1a;
+    /* Tu naranja institucional */
+    border-color: #f36d1a;
+}
+
+.check:focus {
+    box-shadow: 0 0 0 0.25rem rgba(243, 109, 26, 0.25);
+    border-color: #f36d1a;
+}
+
+.right-side {
+    background: #f36d1a;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* arriba */
+    align-items: flex-start;
+    /* izquierda */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* contenedor logo */
+.img-logo {
+    position: absolute;
+    max-width: 300px;
+   
+    
+}
+
+.img-logo img {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    bottom: 20px;
+}
+
+.right-side h3 {
+    font-size: 19px;
+    font-weight: 300;
+
+}
+
+.right-side h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.right-side p {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.9;
+}
+.text{
+    position: relative;
+    top: 120px;
+    transform: translateY(100%);
+    padding: 0px 30px;
+    
+}
